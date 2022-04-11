@@ -18,8 +18,3 @@ int		ft_recursive_factorial(int nb)
 		return (0);
 	return (nb * ft_recursive_factorial(nb - 1));
 }
-
-#include <libc.h>
-
-
-int		
